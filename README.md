@@ -29,7 +29,7 @@ Diabetic Retinopathy (DR) is a leading cause of blindness globally, affecting mi
 
 ## 2. The Dataset
 
-This project was developed for the Kaggle competition "Diabetic Retinopathy Detection." The dataset comprises a large collection of high-resolution retinal images, graded by a clinician on a scale from 0 to 4:
+This project was developed for the Kaggle competition ["Diabetic Retinopathy Detection"](https://www.kaggle.com/competitions/diabetic-retinopathy-detection). The dataset comprises a large collection of high-resolution retinal images, graded by a clinician on a scale from 0 to 4:
 
 - **0 - No DR:** No Diabetic Retinopathy.
 - **1 - Mild:** Mild Diabetic Retinopathy.
@@ -64,15 +64,17 @@ Since the models generate continuous regression scores, a final threshold optimi
 
 This project not only offers an innovative solution for detecting diabetic retinopathy, but it also demonstrated exceptional performance in the Kaggle competition **"Diabetic Retinopathy Detection"**. Ranking **23rd out of 661 participants**, this model placed in the **top 4%** of the competition, showcasing its effectiveness and robustness in a real-world, competitive data environment.
 
+![Kaggle Leaderboard](results_figures/kaggle_result.png)
+
 To evaluate the model's performance, several key metrics were used, with **Quadratic Weighted Kappa (QWK)** being the primary metric of the competition due to its relevance for the classification.
 
-![Métricas Globales](resultados/global_metrics_table.png)
+![Global Metrics](results_figures/global_metrics_table.png)
 
 The achieved **QWK score of 0.7694** indicates a high level of agreement between the model's predictions and expert labels. While the **accuracy** stands at **77.47%**, it is important to note that this metric can be misleading in this context due to the severe class imbalance, particularly the predominance of the "No DR" category. Therefore, the **weighted F1-score of 0.7536** provides a more meaningful representation of the model’s ability to handle class imbalance, which is a common challenge in medical datasets. This highlights the model’s robustness across most categories.
 
-![Matriz de Confusión](resultados/confusion_matrix.png)
+![Confusion Matrix](results_figures/confusion_matrix.png)
 
-![Curvas ROC por Clase](resultados/roc_curves.png)
+![ROC Curves](results_figures/roc_curves.png)
 
 These results—reinforced by the competition ranking and the detailed analysis of metrics and visualizations—confirm the effectiveness of the proposed solution and its promising potential to assist in the early and accurate diagnosis of diabetic retinopathy.
 
@@ -89,6 +91,7 @@ This repository is organized to provide a clear and efficient workflow for the D
 - `evaluating_utils.py`: Utility functions for model evaluation (e.g., `get_metrics`, `optimize_prediction_thresholds`).
 - `twoeyesmodel_and_utils.py`: The Two-Eye Combination Model and functions for extracting and combining features from individual eyes.
 - `visualization_utils.py`: Utility functions for creating plots and visualizations.
+- `train_val_split.py`: Utility functions for splitting the dataset into training and validation sets.
 - `results_figures/`: Stores generated plots, charts, and visual outputs from model training and evaluation.
 
 ---

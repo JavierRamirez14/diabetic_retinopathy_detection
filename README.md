@@ -103,7 +103,7 @@ You can easily replicate and run this project by editing and executing the provi
 Here's how to get started:
 
 1.  **Access the Kaggle Notebook:**
-    Navigate to the project's dedicated Kaggle Notebook here: **[Link to your Kaggle Notebook]**
+    Navigate to the project's dedicated Kaggle Notebook here: **["My Kaggle Notebook"](https://www.kaggle.com/code/jramirez14/diabetic-retinopahty-detection)**
 
 2.  **Copy and Edit the Notebook:**
     Once on the Kaggle Notebook page, click on "Copy & Edit" to create your own editable version.
@@ -113,6 +113,8 @@ Here's how to get started:
 
 4.  **Run All Cells:**
     With the GPU enabled, you can now run all cells in the notebook. This will execute the data loading, model training (EfficientNet and the Two-Eye Combination Model), evaluation, and finally generate the submission file.
+
+> **Note:** A pre-trained EfficientNet model is already provided as a Kaggle Dataset input. If you set the number of EfficientNet training epochs to `0`, the script will skip training and automatically load the pre-trained model instead. This allows you to directly proceed with feature extraction and further evaluation or fine-tuning.
 
 This streamlined approach on Kaggle allows for quick setup and execution, letting you focus on understanding and experimenting with the model.
 

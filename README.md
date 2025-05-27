@@ -65,7 +65,8 @@ Since the models generate continuous regression scores, a final threshold optimi
 
 This project not only offers an innovative solution for detecting diabetic retinopathy, but it also demonstrated exceptional performance in the Kaggle competition **"Diabetic Retinopathy Detection"**. Ranking **20rd out of 661 participants**, this model placed in the **top 3%** of the competition, showcasing its effectiveness and robustness in a real-world, competitive data environment.
 
-![Kaggle Leaderboard](results_figures/kaggle_result.png)
+![Kaggle Leaderboard](results_figures/submission_result.png)
+![Kaggle Leaderboard](results_figures/leaderboard.png)
 
 To evaluate the model's performance, several key metrics were used, with **Quadratic Weighted Kappa (QWK)** being the primary metric of the competition due to its relevance for the classification.
 

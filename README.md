@@ -3,6 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python Version](https://img.shields.io/badge/python-3.11%2B-brightgreen)
 ![Kaggle Rank](https://img.shields.io/badge/Kaggle_Competition-Top_3%25-orange?style=flat-square&logo=kaggle&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.6%2B-red?logo=pytorch&logoColor=white)
 
 This project delivers a robust, end-to-end deep learning system for the automated detection and severity classification of Diabetic Retinopathy (DR) from retinal images. It features an advanced two-stage architectural approach, utilizing EfficientNet for individual eye feature extraction, followed by a specialized neural network that processes and combines information from both eyes. The aim is to provide a clinically viable and scalable solution to accelerate diagnosis and significantly contribute to preventing vision loss worldwide.
 

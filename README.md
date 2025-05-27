@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python Version](https://img.shields.io/badge/python-3.11%2B-brightgreen)
-![Kaggle Rank](https://img.shields.io/badge/Kaggle_Competition-Top_4%25-orange?style=flat-square&logo=kaggle&logoColor=white)
+![Kaggle Rank](https://img.shields.io/badge/Kaggle_Competition-Top_3%25-orange?style=flat-square&logo=kaggle&logoColor=white)
 
 This project delivers a robust, end-to-end deep learning system for the automated detection and severity classification of Diabetic Retinopathy (DR) from retinal images. It features an advanced two-stage architectural approach, utilizing EfficientNet for individual eye feature extraction, followed by a specialized neural network that processes and combines information from both eyes. The aim is to provide a clinically viable and scalable solution to accelerate diagnosis and significantly contribute to preventing vision loss worldwide.
 
@@ -89,9 +89,6 @@ This repository is organized to provide a clear and efficient workflow for the D
 - `evaluating_utils.py`: Utility functions for model evaluation (e.g., `get_metrics`, `optimize_prediction_thresholds`).
 - `twoeyesmodel_and_utils.py`: The Two-Eye Combination Model and functions for extracting and combining features from individual eyes.
 - `visualization_utils.py`: Utility functions for creating plots and visualizations.
-- `models/`: Directory to store trained model checkpoints.
-    - `best_efficientnet_model.pth`: Checkpoint for the EfficientNet feature extractor.
-    - `best_multi_eye_model.pth`: Checkpoint for the Two-Eye Combination Model.
 - `results_figures/`: Stores generated plots, charts, and visual outputs from model training and evaluation.
 
 ---
